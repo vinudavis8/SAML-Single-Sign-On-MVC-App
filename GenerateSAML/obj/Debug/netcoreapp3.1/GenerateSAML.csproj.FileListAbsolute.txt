@@ -1,0 +1,10 @@
+C:\Users\VINU\source\repos\SAML-IDP-MVC-app\GenerateSAML\obj\Debug\netcoreapp3.1\GenerateSAML.csproj.AssemblyReference.cache
+C:\Users\VINU\source\repos\SAML-IDP-MVC-app\GenerateSAML\obj\Debug\netcoreapp3.1\GenerateSAML.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\VINU\source\repos\SAML-IDP-MVC-app\GenerateSAML\obj\Debug\netcoreapp3.1\GenerateSAML.AssemblyInfoInputs.cache
+C:\Users\VINU\source\repos\SAML-IDP-MVC-app\GenerateSAML\obj\Debug\netcoreapp3.1\GenerateSAML.AssemblyInfo.cs
+C:\Users\VINU\source\repos\SAML-IDP-MVC-app\GenerateSAML\obj\Debug\netcoreapp3.1\GenerateSAML.csproj.CoreCompileInputs.cache
+C:\Users\VINU\source\repos\SAML-IDP-MVC-app\GenerateSAML\bin\Debug\netcoreapp3.1\GenerateSAML.deps.json
+C:\Users\VINU\source\repos\SAML-IDP-MVC-app\GenerateSAML\bin\Debug\netcoreapp3.1\GenerateSAML.dll
+C:\Users\VINU\source\repos\SAML-IDP-MVC-app\GenerateSAML\bin\Debug\netcoreapp3.1\GenerateSAML.pdb
+C:\Users\VINU\source\repos\SAML-IDP-MVC-app\GenerateSAML\obj\Debug\netcoreapp3.1\GenerateSAML.dll
+C:\Users\VINU\source\repos\SAML-IDP-MVC-app\GenerateSAML\obj\Debug\netcoreapp3.1\GenerateSAML.pdb

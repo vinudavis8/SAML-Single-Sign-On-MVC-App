@@ -1,0 +1,37 @@
+﻿@{ ViewData["Title"] = "Home Page"; }
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.7.1.min.js"></script>
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>This is a sample Identity provider application</p>
+
+    @* <input type="button" onclick="getSamlAssertion()" value="get"></input> *@
+</div>
+
+@* <form method="POST" action="https://sptest.iamshowcase.com/acs">  *@
+<form method="POST" action=" https://samltest.id/Shibboleth.sso/SAML2/POST">
+    @* <form method="POST" action="https://mtf.loyaltygateway.com/rewards/SSOLogin"> *@
+    <input type="hidden" name="SAMLResponse" id="SAMLResponse" value="">
+    <input type="submit" value="SSO to test service provider"></input>
+</form>
+
+
+
+<script>$(document).ready(function () {
+        getSamlAssertion()
+
+    });
+    function getSamlAssertion() {
+
+        $.ajax({
+            type: "GET",
+            url: "/Home/GetSAMLResponse",
+            // data: myusername,
+            cache: false,
+            success: function (data) {
+                //alert(data)
+                $("#SAMLResponse").val(btoa(data))
+                console.log(data)
+            }
+        });
+    }</script>

@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>SAML_IDP_MVC_app</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="Certificates\idp.pfx" />
+    <Content Include="Certificates\shibboleth-enc.cer" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GenerateSAML\GenerateSAML.csproj" />
+  </ItemGroup>
+
+</Project>
